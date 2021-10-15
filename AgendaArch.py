@@ -77,7 +77,7 @@ def main():
 
     while continuar:
         mostrar_menu()
-        opc = int(input('selecciona una opcion: '))
+        opc = int(input('selecciona una  de las siguientes opcion: '))
 
         if opc == 1:
             Agregar_contacto(txt, nombre_txt)
